@@ -1,10 +1,3 @@
-import {
-  ClevertechLogo,
-  JojoMobileLogo,
-  Minimal,
-  NSNLogo,
-  ParabolLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -54,7 +47,6 @@ export const RESUME_DATA = {
       link: "https://www.palo-it.com/en/",
       badges: ["Partial Remote"],
       title: "Full Stack Developer / Consultant",
-      logo: ParabolLogo,
       start: "jan. 2023",
       end: "now",
       // description:
@@ -65,7 +57,6 @@ export const RESUME_DATA = {
       link: "https://www.enedis.fr/",
       badges: [],
       title: "Full Stack Developer",
-      logo: ClevertechLogo,
       start: "nov. 2019",
       end: "oct. 2022",
       // description:
@@ -76,7 +67,6 @@ export const RESUME_DATA = {
       link: "https://www.enedis.fr/",
       badges: ["intership"],
       title: "Full Stack Developer",
-      logo: JojoMobileLogo,
       start: "jan. 2019",
       end: "feb. 2019",
       // description:
@@ -87,7 +77,6 @@ export const RESUME_DATA = {
       link: "https://www.enedis.fr/",
       badges: ["intership"],
       title: "Full Stack Developer",
-      logo: NSNLogo,
       start: "may 2018",
       end: "june 2018",
       // description: "Creating and testing software for LTE base stations",
