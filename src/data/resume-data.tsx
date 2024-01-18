@@ -49,8 +49,8 @@ export const RESUME_DATA = {
       title: "Full Stack Developer / Consultant",
       start: "jan. 2023",
       end: "now",
-      // description:
-      //   "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      description:
+        "",
     },
     {
       company: "Enedis",
@@ -59,8 +59,8 @@ export const RESUME_DATA = {
       title: "Full Stack Developer",
       start: "nov. 2019",
       end: "oct. 2022",
-      // description:
-      //   "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      description:
+        "",
     },
     {
       company: "Enedis",
@@ -69,8 +69,8 @@ export const RESUME_DATA = {
       title: "Full Stack Developer",
       start: "jan. 2019",
       end: "feb. 2019",
-      // description:
-      //   "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+      description:
+        "",
     },
     {
       company: "Enedis",
@@ -79,7 +79,7 @@ export const RESUME_DATA = {
       title: "Full Stack Developer",
       start: "may 2018",
       end: "june 2018",
-      // description: "Creating and testing software for LTE base stations",
+      description: "",
     },
   ],
   skills: [
