@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,8 +24,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
+      <head>
+        <Script
+          defer
+          data-domain="guli.io"
+          src="http://plausible-w0s0g44osc84gkcokss40ok4.193.203.190.150.sslip.io/js/script.js"
+        />
+      </head>
       <body>{children}</body>
       <Analytics />
     </html>
+
   );
 }
