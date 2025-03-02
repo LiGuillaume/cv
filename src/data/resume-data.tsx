@@ -162,7 +162,7 @@ export const RESUME_DATA = {
     },
     {
       title: "SmarTrack",
-      techStack: ["Typescript", "React", "AWS Lambda", "Hyperledger Fabric"],
+      techStack: ["Typescript", "React", "AWS Lambda", "Hyperledger Fabric", "Wordpress"],
       description:
         "Manage the carbon impact and the supply of your products thanks to an integral traceability system, while strictly respecting the confidentiality of your business",
       link: {
@@ -196,6 +196,12 @@ export const RESUME_DATA = {
       techStack: ["PHP", "MariaDB", "javascript", "jQuery"],
       description:
         "Intranet application for schedule management for several departments working together",
+    },
+    {
+      title: "Studio Val-thorens",
+      techStack: ["Wordpress"],
+      description:
+        "Showcase website (site does not exist anymore)",
     },
   ],
 } as const;
