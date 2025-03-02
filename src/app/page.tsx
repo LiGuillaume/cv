@@ -138,6 +138,50 @@ export default function Page() {
             );
           })}
         </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Educational Experience</h2>
+          {RESUME_DATA.educational.map((educational) => {
+            return (
+              <Card key={educational.company}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline" href={educational.link}>
+                        {educational.company}
+                      </a>
+
+                      <span className="inline-flex gap-x-1">
+                        {educational.badges.map((badge) => (
+                          <Badge
+                            variant="secondary"
+                            className="align-middle text-xs"
+                            key={badge}
+                          >
+                            {badge}
+                          </Badge>
+                        ))}
+                      </span>
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {educational.start} - {educational.end}
+                    </div>
+                  </div>
+
+                  <h4 className="font-mono text-sm leading-none">
+                    {educational.title}
+                  </h4>
+                </CardHeader>
+                {educational.description.map((description) => (
+                  <CardContent className="mt-2 text-xs" key={description}>
+                    {description}
+                  </CardContent>
+                ))}
+              </Card>
+            );
+          })}
+        </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {

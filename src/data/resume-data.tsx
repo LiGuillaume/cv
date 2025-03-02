@@ -41,14 +41,53 @@ export const RESUME_DATA = {
       end: "2019",
     }
   ],
+  educational: [
+    {
+      company: "Supinfo",
+      link: "https://www.supinfo.com/",
+      badges: ["1TEAM x1", "3APIS x3", "3SECU x1", "5BLOC x2"],
+      title: "Instructor ",
+      start: "2021",
+      end: "now",
+      description:
+      [
+        "1TEAM : Learning teamwork skills",
+        "3APIS : Develop API REST with Express.js and MongoDB",
+        "3SECU : Web application security",
+        "5BLOC : Introduction to blockchain" 
+      ]
+    },
+
+    {
+      company: "Epitech",
+      link: "https://www.epitech.eu",
+      badges: ["PGE3"],
+      title: "RNCP Level 3 Certification Board",
+      start: "2025",
+      end: "now",
+      description:
+        ["Evaluates and validates professional skills at the RNCP Level 3, ensuring alignment with national standards and industry needs."],
+    },
+  ],
   work: [
+    {
+      company: "Dougs",
+      link: "https://www.dougs.fr",
+      badges: ["Partial Remote (80/20)"],
+      title: "Software Engineer",
+      start: "sep. 2024",
+      end: "now",
+      description:
+        "",
+    },
+
     {
       company: "PALO IT",
       link: "https://www.palo-it.com/en/",
-      badges: ["Partial Remote"],
+      badges: ["Remote"],
       title: "Full Stack Developer / Consultant",
       start: "jan. 2023",
-      end: "now",
+      end: "march 2024",
       description:
         "",
     },
@@ -91,9 +130,20 @@ export const RESUME_DATA = {
     "Express.js",
     "Node.js",
     "PostgreSQL",
-    "Prisma"
+    "Prisma",
+    "Wordpress"
   ],
   projects: [
+    {
+      title: "Dougs",
+      techStack: ["TypeScript", "NestJS", "Angular", "Sequelize" ,"PostgreSQL", "Metabase", "Datadog", "Miro", "Github", "Notion"],
+      description: "Improvement and development of the application for internal accountants and customers",
+      link: {
+        label: "dougs.fr",
+        href: "https://www.dougs.fr",
+      },
+
+    },
     {
       title: "Actua Formation",
       techStack: ["TypeScript", "Svelte", "Express.js", "Prisma" ,"PostgreSQL"],
