@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Engineer",
   summary:
-    "As a Full Stack engineer, I've been working on a number of business application projects, from the design phase to the production phase in line with business requirements, for the past 4 years. I currently work mainly with TypeScript, React, Nest.js, Node.js and PostgreSQL.",
+    "As a Full Stack engineer, I've been working on a number of business application projects, from the design phase to the production phase in line with business requirements, for the past 6 years. I currently work mainly with TypeScript, Angular, Nest.js, Node.js and PostgreSQL.",
   avatarUrl: "https://avatars.githubusercontent.com/u/30837240?v=4",
   personalWebsiteUrl: "https://guli.io",
   contact: {
